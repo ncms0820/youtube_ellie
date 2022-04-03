@@ -4,7 +4,7 @@ import styles from "./video_detail.module.css";
 const VideoDetail = ({ video }) => (
   <section className={styles.detail}>
     <iframe
-      title="iframe"
+      title="youtube video player"
       className={styles.video}
       type="text/html"
       width="100%"
